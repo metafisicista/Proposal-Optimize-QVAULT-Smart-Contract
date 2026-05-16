@@ -34,7 +34,9 @@ Qvault already exists on-chain. This proposal is an optimize proposal, not an in
 
 ## Optimize the performance
 
-- By limiting `stake`, `unStake`, and `voteInProposal` frequencies per epoch and per proposal, we significantly reduce the amount of state rewrites for `HashMap` and `Array` updates. Adding fees and minimum QCAP thresholds introduces a clear economic protection against spamming. Rejecting dust transfers and micro-interactions right at the beginning of the procedures drops the execution time to O(1) for invalid calls, preventing the contract's execution fee reserve from being drained by malicious spam transactions.
+- By limiting `stake`, `unStake`, and `voteInProposal` frequencies per epoch and per proposal, we significantly reduce the amount of state rewrites for `HashMap` and `Array` updates.
+- Adding fees and minimum QCAP thresholds introduces a clear economic protection against spamming.
+- Rejecting dust transfers and micro-interactions right at the beginning of the procedures drops the execution time to O(1) for invalid calls, preventing the contract's execution fee reserve from being drained by malicious spam transactions.
 
 ## Technical Implementation
 
