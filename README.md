@@ -1,7 +1,5 @@
 # Proposal-Optimize-QVAULT-Smart-Contract
 
-# Proposal: Optimize Qvault Smart Contract
-
 Optimize the existing Qvault Smart Contract on Qubic.
 
 ## Available Options
