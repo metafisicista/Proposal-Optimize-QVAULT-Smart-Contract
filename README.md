@@ -42,6 +42,4 @@ Qvault already exists on-chain. This proposal is an optimize proposal, not an in
 
 **Developer:** [baoLuck](https://github.com/baoLuck)
 
-Core implementation PR1: [https://github.com/qubic/core/pull/222/changes](https://github.com/qubic/core/pull/222/changes)
-
-Core implementation PR2: [https://github.com/qubic/core/pull/365/changes](https://github.com/qubic/core/pull/365/changes)
+Core implementation PR: [https://github.com/qubic/core/pull/883/changes](https://github.com/qubic/core/pull/883/changes)
